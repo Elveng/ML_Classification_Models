@@ -1,0 +1,18 @@
+Random Forest Test results:
+Accuracy: 0.750
+TPrate (Recall): 0.566
+TNrate: 0.931
+Precision: 0.889
+F-Score: 0.691
+Total number of TP: 56
+Total number of TN: 94
+
+In this code, pandas library is used for:
+  - Loading and handling the training and testing datasets (pd.read_csv).
+  - Organizing and transforming the data into a format suitable for decision tree and random forest algorithms.
+  - Storing and manipulating the features and labels in a tabular format.
+
+And numpy library is used for:
+  - Numerical operations on arrays, such as mean calculations (np.mean).
+  - Handling and transforming data in a numerical format, which is crucial for machine learning algorithms.
+  - Efficiently working with potential splits and other numerical calculations in the decision tree and random forest algorithms.

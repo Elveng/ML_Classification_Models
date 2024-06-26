@@ -1,0 +1,39 @@
+├── A7 <= 2?
+│   ├── Yes: A6 = ff?
+│   │   ├── Yes: A2 <= 69.5?
+│   │   │   └── Yes: Predict bad
+│   │       ├── No: A8 = t?
+│   │       │   └── Yes: Predict good
+│   │           └── No: Predict bad
+│       ├── No: A5 = i?
+│       │   ├── Yes: A2 <= 40.83?
+│       │   │   └── Yes: Predict bad
+│       │       ├── No: A2 <= 41.5?
+│       │       │   └── Yes: Predict good
+│       │           └── No: Predict bad
+│           ├── No: A6 = h?
+│           │   ├── Yes: A9 = s?
+│           │   │   └── Yes: Predict bad
+│           │       └── No: Predict good
+│               └── No: Predict bad
+    ├── No: A7 <= 3?
+    │   ├── Yes: A5 = k?
+    │   │   └── Yes: Predict bad
+    │       ├── No: A5 = w?
+    │       │   ├── Yes: A2 <= 30.42?
+    │       │   │   └── Yes: Predict bad
+    │       │       └── No: Predict good
+    │           ├── No: A6 = ff?
+    │           │   └── Yes: Predict bad
+    │               └── No: Predict good
+        ├── No: A2 <= 37.75?
+        │   ├── Yes: A6 = ff?
+        │   │   └── Yes: Predict bad
+        │       ├── No: A5 = m?
+        │       │   └── Yes: Predict bad
+        │           └── No: Predict good
+            ├── No: A6 = z?
+            │   ├── Yes: A7 <= 14?
+            │   │   └── Yes: Predict good
+            │       └── No: Predict bad
+                └── No: Predict good

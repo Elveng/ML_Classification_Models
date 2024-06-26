@@ -1,0 +1,27 @@
+Train results:
+Accuracy: 0.792
+TPrate (Recall): 0.673
+TNrate: 0.879
+Precision: 0.805
+F-Score: 0.733
+Total number of TP: 140
+Total number of TN: 248
+
+Test results:
+Accuracy: 0.735
+TPrate (Recall): 0.586
+TNrate: 0.881
+Precision: 0.829
+F-Score: 0.686
+Total number of TP: 58
+Total number of TN: 89
+
+In this code, pandas library is used for:
+  - Loading and handling the training and testing datasets (pd.read_csv).
+  - Organizing and transforming the data into a format suitable for decision tree and random forest algorithms.
+  - Storing and manipulating the features and labels in a tabular format.
+
+And numpy library is used for:
+  - Numerical operations on arrays, such as mean calculations (np.mean).
+  - Handling and transforming data in a numerical format, which is crucial for machine learning algorithms.
+  - Efficiently working with potential splits and other numerical calculations in the decision tree and random forest algorithms.
